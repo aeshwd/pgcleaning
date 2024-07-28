@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | PG Cleaning Services</title>
+    <link rel="stylesheet" href="price.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="pg.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="preloader js-preloader">
+       <div class="please"> Please Wait... </div>
+        <div class="circle">
+            
+        </div>
+    </div>
+
+
+    <!--Sidebar Section-->
+
+    <div class="sidebar">
+    
+        <a href="#"  style="text-align: center; margin-top: 20px; transition: 0.3s ease-in-out; " onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+        <div class="img">
+            <p>PG <span>Cleaning Service</span></p> 
+        </div>
+        <div class="links">
+
+          
+
+            <ul>
+               
+            <a href="/pgcleaning/index.html"><li>Home</li></a>
+            <a href="/pgcleaning/index.html"><li>About</li></a>
+            <a href="/pgcleaning/index.html"><li>Services</li></a>
+            <a href="#"><li>Pricing</li></a>
+            <a href="/pgcleaning/index.html"><li>Careers</li></a>
+            <a href="/pgcleaning/index.html"><li>Contact</li></a>
+
+        </ul>
+        </div>
+    </div> 
+   
+
+
+    <!--Navbar Section-->
+    <div class="navbar">
+        <div class="img" >
+            <p>PG <span>Cleaning Service</span></p> 
+        </div>
+        <div class="links">
+
+          
+
+            <ul>
+            <a href="/pgcleaning/index.html" class="hideOnmobile"><li>Home</li></a>
+            <a href="/pgcleaning/index.html" class="hideOnmobile"><li>About</li></a>
+            <a href="/pgcleaning/index.html" class="hideOnmobile"><li>Services</li></a>
+            <a href="#" class="hideOnmobile"><li>Pricing</li></a>
+            <a href="/pgcleaning/index.html" class="hideOnmobile"><li>Careers</li></a>
+            <a href="/pgcleaning/index.html" class="hideOnmobile"><li>Contact</li></a>
+            <a href="/pgcleaning/index.html" class="show" onclick="showSidebar()"><li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li></a>
+        </ul>
+        </div>
+    </div>
+    
+
+    <div class="check">
+        <h2 class="price">
+           Get Pricing In 60 Seconds
+        </h2>
+        <p>Super Simple! Select or fill the values in the fields and get the exact price with no hidden charges.</p>
+
+        <div class="hel">
+        <div class="container">
+
+            <label for="bedroom">Bedrooms (Standard Clean)</label>
+            <input type="number" name="bedroom" id="bedroom" min="1" value="1"> <br>
+
+            <label for="bathroom">Bathrooms (Standard Clean)</label>
+            <input type="number" name="bathroom" id="bathroom" min="1" value="1">
+            <br>
+
+            <label for="extra-rooms">Extra Rooms</label>
+
+            <input type="number" name="extra-rooms" id="extra-rooms" min="0" value="0"> <br>
+
+            <label for="charge"> Service Charge (in CAD)</label>
+            <input type="number" name="charge" id="charge" value="20" disabled> <br>
+
+            <label for="tip">Any Tip (in CAD)</label>
+            <input type="number" name="tip" id="tip" min="0" value="0"> <br>
+
+
+            <button id="button">
+                Get Price
+            </button>
+
+            <div id="output">
+            
+            </div>
+            
+        </div>
+
+    </div>
+    </div>
+
+    <!--Footer Section-->
+    <div class="footer">
+        <div class="copy"> CopyRight &copy; 2015 - 2024 | PG Cleaning Services </div>
+
+        <div class="made">
+         Website made by Aesh Goswami
+        </div>
+     </div>
+ </div>
+
+
+</body>
+<script src="price.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</html>
